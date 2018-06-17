@@ -1,0 +1,108 @@
+.footer{
+    width: 100%;
+    padding-left: 6.2%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.footer-social-icons ul li{
+    float: left;
+    /* padding: 8px 10px; */
+    border-left: 1px solid rgba(52,65,107);
+    border-color: rgba(55,64,93);
+    cursor: pointer;
+}
+.footer-social-icons ul li:last-child{
+    border-right: 1px solid rgba(52,65,107);
+}
+.footer-social-icons ul li a{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 18px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.footer-social-icons ul li a i{
+    color: white;
+    font-size: 20px;
+}
+.footer-social-icons ul li a.twitter:hover{
+  background-color: #46C0fb;
+}
+.footer-social-icons ul li a.facebook:hover{
+    background-color: #4863ae;
+  }
+  .footer-social-icons ul li a.google-plus:hover{
+    background-color: #dd4b39;
+  }
+  .footer-social-icons ul li a.instagram:hover{
+    background-color: #4d4f54;
+  }
+  .footer-last-para{
+      float: right;
+     
+      margin-top: 23px;
+  }
+  .footer-last-para p{
+      font-size: 12px;
+      color: white;
+  }
+
+  /* responsive code */
+  /* 1380px css code */
+  @media screen and (max-width:1380px){
+      .footer{
+          padding-left: 6.9%;
+      }
+      .footer-last-para{
+          margin-top: 20px;
+      }
+  }
+  /* 1300px */
+  @media screen and (max-width:1300px){
+      .footer{
+          padding-left: 60px;
+      }
+  }
+ /* 992px css */
+ @media screen and (max-width:992px){
+     .footer{
+         position: relative;
+     }
+     .footer-social-icons ul li{
+         border-top: 1px solid rgba(52,65,107);
+         border-bottom: 1px solid rgba(52,65,107);
+     }
+     .footer-social-icons ul li a{
+         padding: 10px 16px;
+     }
+     .footer-social-icons ul li a i{
+         font-size: 18px;
+     }
+     .footer-social-icons{
+         display: inline-block;
+         clear: both;
+         width: 100%;
+         text-align: center;
+     }
+     .footer-social-icons ul{
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 15px;
+     }
+     .footer-last-para{
+        display: block;
+        text-align: center;
+        float: none;
+        clear: both;
+        margin-top: 5px;
+    margin-bottom: 15px;
+    }
+ }
+ /* 768px css */
+ @media screen and (max-width:768px){
+    .footer{
+        padding-left: 10px;
+    }
+ }

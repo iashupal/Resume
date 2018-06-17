@@ -1,0 +1,77 @@
+/* .profile-info{
+    width: 100%;
+    padding: 0 3%;
+}
+
+.profile-info .profile-row{
+    margin: 0;
+} */
+.profile-bg{
+    height: 100%;
+    padding: 0% 0%;
+}
+.profile-img{
+    width: 100%;
+    float: left;
+    /* height: 100%; */
+}
+.profile-img{
+    background-image: url('../../../assets/images/img3.jpg');
+    height: 93%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.profile-img img{
+   max-width: 100%;
+    border-color: #3d4a6e;
+}
+ .info{
+    background-color: #2E3d65;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px 10px 10px;
+    line-height: 25px;
+    word-break: break-all;
+    display: inline-block;
+
+}
+ .info h3{
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* responsive code */
+/* 992px css code */
+@media screen and (max-width:992px){
+    .profile-bg{
+        padding:  0% 3%;
+    }
+    .profile-img{
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: 100% -6%;
+    }
+}
+/* 640px css code */
+@media screen and (max-width:640px){
+    .profile-img{
+        background-position: 100% -10%;
+    }
+}
+
+/* 480px css code */
+@media screen and (max-width:480px){
+   .profile-img{
+       background-position: 100% 17px;
+   }
+}
