@@ -1,0 +1,47 @@
+.profile-info{
+    width: 100%;
+    padding: 0 3%;
+    height: 100%;
+}
+
+.profile-info .profile-row{
+    margin: 0;
+    height: 100%;
+    align-items: center;
+}
+.profile-info .profile-row .profile-detail{
+    height: 100%;
+    padding: 0;
+}
+.profile-info .profile-row .profile-pic{
+   padding: 0;
+   height: 85%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+  }
+  html{
+    height: 100%;
+  }
+  #root{
+    height: 100%;
+  }
+
+  /* responsive code */
+  /* 992 css */
+  @media screen and (max-width:992px){
+    .profile-info .profile-row .profile-detail{
+        background-color: #3d4a6e;
+    }
+    .profile-info .profile-row{
+        align-items: none;
+    }
+    
+    .profile-info{
+        padding: 0 0%;
+    }
+  }
+  

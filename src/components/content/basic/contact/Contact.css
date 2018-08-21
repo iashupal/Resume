@@ -1,0 +1,9 @@
+/* .contact{
+    background: #ffffff;
+} */
+.contact .contact-inner-div{
+    width: 100%;
+}
+.contact .contact-inner-div iframe{
+    height: 648px;
+}
